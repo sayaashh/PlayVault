@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Favorites - PlayVault</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="logo.png" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html" class="logo">PlayVault</a>
+
+      <div class="nav-links">
+        <button class="nav-btn" onclick="logout()">Logout</button>
+      </div>
+    </div>
+
+    <div class="dashboard-content">
+      <h2>Your Favorites</h2>
+
+      <div id="favorites-list" class="game-grid"></div>
+    </div>
+
+    <script src="auth.js" defer></script>
+    <script src="dashboard.js" defer></script>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT -->
+        <div class="footer-section">
+          <h2 class="footer-logo">PlayVault</h2>
+          <p class="footer-text">
+            Discover, rate, and build your ultimate PlayStation game collection.
+          </p>
+        </div>
+
+        <!-- CENTER -->
+        <div class="footer-section center">
+          <h4>Follow Us</h4>
+          <div class="socials">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+
+            <a href="https://discord.com" target="_blank">
+              <i class="fab fa-discord"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="footer-section right">
+          <h4>Explore</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <p class="footer-bottom">© 2026 PlayVault. Built for gamers 🎮</p>
+    </footer>
+    <div id="toast-container" class="toast-container"></div>
+  </body>
+</html>
