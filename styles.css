@@ -1,22 +1,27 @@
+/*PROJECT: TechSavys Game Database (PlayVault)
+ROLE: UI Design & Specification
+MEMBER: Shania Ali
+DESCRIPTION: Global reset and typography standards.*/
+
 body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  background: #0b0b0b;
-  color: white;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0b0b0b;
+    color: white;
 }
-h1,
-h2,
-h3 {
-  font-weight: 600;
+
+h1, h2, h3 {
+    font-weight: 600;
 }
+
 h2 {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
 }
 
 p {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 #game-list {
